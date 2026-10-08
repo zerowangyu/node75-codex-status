@@ -1,0 +1,24 @@
+# 构建产物
+*.app/
+/node75_led
+*.zip
+*.dSYM/
+/dist/
+
+# Python 与编辑器
+__pycache__/
+*.py[cod]
+.DS_Store
+.vscode/
+.idea/
+
+# 本机运行与账户数据
+*.log
+*.sock
+/status.json
+/quota.json
+/integration.json
+/hook-receipt.json
+/menubar-config.json
+/hooks.json*
+.env
